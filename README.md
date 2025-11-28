@@ -26,4 +26,4 @@ pytest
 
 ## Автор
 
-Kodland, tigran task
+Kodland, tigran task pon
