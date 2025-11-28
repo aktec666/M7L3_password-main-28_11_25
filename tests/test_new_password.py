@@ -8,6 +8,14 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
+def no_test_password_characters():
+    password = generate_password(16)
+    assert len(password) == 16
+
+def test_generated_passwords():
+    password1 = generate_password()
+    password2 = generate_password()
+    assert password1 != password2, "УЖЕ ЕСТЬ ТАКОЙ ПАРОЛЬ :)"
 """
 Допиши еще один тест из предложенных. Или придумай свой.
 Если сможешь написать больше, то будет круто!
