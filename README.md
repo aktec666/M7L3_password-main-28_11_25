@@ -26,4 +26,6 @@ pytest
 
 ## Автор
 
-Kodland, tigran task
+Kodland, 
+
+todo add new function
