@@ -26,6 +26,4 @@ pytest
 
 ## Автор
 
-Kodland, tigran task
-123
-123
+Kodland, Denis task
