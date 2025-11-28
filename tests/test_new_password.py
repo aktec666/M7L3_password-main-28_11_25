@@ -8,6 +8,13 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
+
+def test_length_password():
+    password = generate_password(16)
+    assert len(password) == 16
+
+
+
 """
 Допиши еще один тест из предложенных. Или придумай свой.
 Если сможешь написать больше, то будет круто!
