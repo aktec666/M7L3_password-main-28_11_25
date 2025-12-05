@@ -26,5 +26,4 @@ pytest
 
 ## Автор
 
-Kodland, tigran task
-        iliya taskeewef
+Kodland, Iliya Fadeev
